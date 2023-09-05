@@ -1,0 +1,248 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+*,*::before,*::after{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  /* border: 0; */
+  text-decoration: none;
+  list-style-type:none;
+  box-sizing: border-box;
+  
+}
+
+html{
+ font-size: 0.85rem; 
+}
+
+body{
+  background-color: white;
+  color:black;
+  font-family: poppins,sans-serif;
+  height: auto;
+  font-size: 0.88rem;
+}
+
+img{
+  width: 100%;
+  display: block;
+}
+
+
+header{
+    /* position: fixed; */
+    display: flex;
+    background-color: #1c2e82;
+    width: 1550px;
+}
+header img {
+    height: 8rem;
+    width: 8rem;
+    padding-top: 1rem;
+    margin-left: 10rem;
+    margin-right: 2rem;
+}
+
+nav ul{
+    display: flex;
+    padding-top: 4rem;
+    gap: 2rem; 
+}
+header nav ul li a{
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+      
+}
+
+header nav ul li a:hover{
+    border-bottom: 2px solid orangered;
+    
+}
+.btn{
+    
+    height: 40px;
+    width: 170px;
+    margin-top: 3rem;
+    margin-left: 5rem;
+    border-radius: 15px;
+    border: 1px solid white;
+    background-color: #6377d1;
+    color: white;
+    cursor: pointer;
+}
+.btn:hover{
+   
+    background-color:  orangered;
+}
+
+
+.titre h1{
+    position: absolute;
+    top: 30%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    text-align: center;
+    color: #1c2e82;
+    padding: 10px;
+}
+
+.titre p{
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 2rem;
+    text-align: center;
+    color: #e74114;
+    padding: 10px;
+}
+
+.titre button{
+    position: absolute;
+    top: 70%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    font-size: 1rem;
+    text-align: center;
+    color: #e74114;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgb(234, 137, 40);
+    color: white;
+    width: 150px;
+    height: 40px;
+    border: none;
+}
+.titre button:hover{
+    background-color: #1c2e82;
+}
+
+.services{
+    display: flex;
+    padding-top: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 50px;
+    
+     
+}
+
+.service{
+   text-align: center;
+   padding-top: 4rem;
+   font-size: 2rem;
+   color: orangered;
+   text-decoration:dotted underline #1c2e82 ;
+   
+
+
+}
+.services h3{
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    padding:1rem 1rem 1rem 1rem;
+    background-color:#3b50b0 ;
+    border-radius:10px 40px 30px 40px ;
+    
+}
+
+.services small{
+    font-size: 1.1rem;
+    text-align: justify;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+
+.services button{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    height: 35px;
+    width: 100px;
+    color: white;
+    border-radius: 10px;
+    background-color: #3b50b0;
+    border: none;
+}
+.services button:hover{
+    background-color: orangered;
+}
+ .services1{ 
+    display: grid;
+    padding: 1rem 1rem 1rem 1rem;
+    border: 2px solid #a1acdd;
+    border-radius: 15px;
+    line-height: 2;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.services2{
+    display: grid;
+    padding: 1rem 1rem 1rem 1rem;
+    border: 2px solid #a1acdd;
+    border-radius: 15px;
+    line-height: 2;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+     
+    
+}
+
+.services3{
+    display: grid;
+    padding: 1rem 1rem 1rem 1rem;
+    border: 2px solid #a1acdd;
+    border-radius: 15px;
+    line-height: 2;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    
+}
+
+.services4{
+    display: grid;
+    padding: 1rem 1rem 1rem 1rem;
+    border: 2px solid #a1acdd;
+    border-radius: 15px;
+    line-height: 2;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    
+} 
+footer nav ul li a{
+    color: white;
+    font-size: 1rem;
+    padding-left: 3rem;
+    text-decoration: none;
+}
+
+footer nav ul li a:hover{
+    color: orangered;
+}
+
+footer{
+    margin-top: 0.5rem;
+    background-color: #1c2e82;
+    padding-left: 23rem;
+    padding-bottom: 2rem;
+}
+footer small{
+    font-size: 1.2rem;
+    color: #e74114;
+    padding-left: 23rem;
+    
+}
+
+/* @media screen and (max-wdith: 768px) {
+    body{
+        background-color: green;
+    }
+    
+} */
