@@ -33,7 +33,7 @@ header{
     /* position: fixed; */
     display: flex;
     background-color: #1c2e82;
-    width: 1550px;
+    width: 1518px;
 }
 header img {
     height: 8rem;
@@ -137,18 +137,18 @@ header nav ul li a:hover{
    padding-top: 4rem;
    font-size: 2rem;
    color: orangered;
-   text-decoration:dotted underline #1c2e82 ;
+   text-decoration:overline underline #1c2e82 ;
    
 
 
 }
 .services h3{
-    color: white;
+    color: black;
     font-size: 1.2rem;
     text-align: center;
     padding:1rem 1rem 1rem 1rem;
-    background-color:#3b50b0 ;
-    border-radius:10px 40px 30px 40px ;
+    /* background-color:#3b50b0 ;
+    border-radius:10px 40px 30px 40px ; */
     
 }
 
