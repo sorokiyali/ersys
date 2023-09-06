@@ -240,9 +240,15 @@ footer small{
     
 }
 
-/* @media screen and (max-wdith: 768px) {
-    body{
-        background-color: green;
+ /* @media screen and (min-wdith: 768px) {
+    .services{
+        background-color: red;
     }
     
-} */
+}  */
+@media screen and (max-width: 768px) {
+  .body {
+    float: none;
+    width: 100%;
+  }
+}
